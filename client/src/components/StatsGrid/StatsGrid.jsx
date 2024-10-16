@@ -13,6 +13,7 @@ import {
     IconArchiveFilled,
     IconSettingsFilled,
     IconTrashFilled,
+    IconSpeakerphone,
 } from '@tabler/icons-react';
 import classes from './StatsGrid.module.css';
 
@@ -21,16 +22,11 @@ const icons = {
     settings: IconSettingsFilled,
     arch: IconArchiveFilled,
     del: IconTrashFilled,
+    speakerPhone: IconSpeakerphone,
 };
 
-const data = [
-    { title: 'Total Users', icon: 'user', value: '5,173', diff: 34 },
-    { title: 'Total Roles', icon: 'settings', value: '56', diff: -13 },
-    { title: 'Archived Users', icon: 'arch', value: '573', diff: -30 },
-    { title: 'Deleted Users', icon: 'del', value: '2,543', diff: 18 },
-];
 
-export function StatsGrid() {
+export function StatsGrid({data}) {
     const stats = data.map((stat) => {
         const Icon = icons[stat.icon];
         const DiffIcon = stat.diff > 0 ? IconArrowUpRight : IconArrowDownRight;
@@ -49,14 +45,14 @@ export function StatsGrid() {
                 </Group>
 
                 <Text fz="xs" c="dimmed" mt={7}>
-                    in last year.
+                    <Text className={classes.time}>{stat.time}</Text>
                 </Text>
             </Paper>
         );
     });
     return (
         <div className={classes.root}>
-            <SimpleGrid cols={{ base: 1, xs: 2, md: 4 }}>{stats}</SimpleGrid>
+            <SimpleGrid cols={{ base: 1, xs: 2, md: data.length }}>{stats}</SimpleGrid>
         </div>
     );
 }

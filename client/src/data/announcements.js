@@ -1,8 +1,8 @@
 export const announcements = [
     { id: 1, title: "Semester Exams Schedule Released", message: "Check the official notice for exam dates.", time: "2023-08-01 10:00:00", read: false, isArchived: false, year: 2021 },
     { id: 2, title: "New Research Grant Available", message: "Apply for the new research grant by September.", time: "2023-08-05 12:30:00", read: true, isArchived: false, year: 2019 },
-    { id: 3, title: "Library Closed for Maintenance", message: "The library will be closed on 15th August.", time: "2023-08-07 11:45:00", read: false, isArchived: false, year: 2020 },
-    { id: 4, title: "Independence Day Celebrations", message: "Join the celebrations on 15th August.", time: "2023-08-10 09:15:00", read: true, isArchived: false, year: 2019 },
+    { id: 3, title: "Library Closed for Maintenance", message: "The library will be closed on 15th August.", time: "2021-08-07 11:45:00", read: false, isArchived: false, year: 2020 },
+    { id: 4, title: "Independence Day Celebrations", message: "Join the celebrations on 15th August.", time: "2022-08-10 09:15:00", read: true, isArchived: false, year: 2019 },
     { id: 5, title: "New Cafeteria Menu Available", message: "Check out the updated cafeteria menu.", time: "2023-08-15 08:00:00", read: false, isArchived: false, year: 2022 },
     { id: 6, title: "New Student Club Formed", message: "Join the newly formed AI and Robotics club.", time: "2023-08-17 16:20:00", read: true, isArchived: false, year: 2019 },
     { id: 7, title: "Hostel Allocation for Freshers", message: "Check your hostel allocation online.", time: "2023-08-20 17:50:00", read: false, isArchived: false, year: 2021 },
@@ -20,8 +20,8 @@ export const announcements = [
     { id: 19, title: "Transport Service Changes", message: "Changes in transport timings from next week.", time: "2023-09-18 18:00:00", read: false, isArchived: false, year: 2020 },
     { id: 20, title: "New Placements Announced", message: "Check out the latest placement opportunities.", time: "2023-09-20 11:20:00", read: true, isArchived: false, year: 2019 },
     { id: 21, title: "Hostel Rules Updated", message: "New hostel rules have been implemented.", time: "2023-09-22 13:05:00", read: false, isArchived: false, year: 2022 },
-    { id: 22, title: "Library Fine Waiver", message: "Late fee waiver on overdue books.", time: "2023-09-24 09:45:00", read: true, isArchived: false, year: 2019 },
-    { id: 23, title: "Job Fair Announcement", message: "Job fair to be held on 5th October.", time: "2023-09-26 14:10:00", read: false, isArchived: false, year: 2019 },
-    { id: 24, title: "New Elective Course Available", message: "A new elective course on Blockchain.", time: "2023-09-28 12:50:00", read: true, isArchived: false, year: 2020 },
-    { id: 25, title: "Final Year Project Showcase", message: "Showcase your project on 10th October.", time: "2023-09-30 15:40:00", read: false, isArchived: false, year: 2020 },
+    { id: 22, title: "Library Fine Waiver", message: "Late fee waiver on overdue books.", time: "2024-09-24 09:45:00", read: true, isArchived: false, year: 2019 },
+    { id: 23, title: "Job Fair Announcement", message: "Job fair to be held on 5th October.", time: "2024-09-26 14:10:00", read: false, isArchived: false, year: 2019 },
+    { id: 24, title: "New Elective Course Available", message: "A new elective course on Blockchain.", time: "2024-09-28 12:50:00", read: true, isArchived: false, year: 2020 },
+    { id: 25, title: "Final Year Project Showcase", message: "Showcase your project on 10th October.", time: "2024-09-30 15:40:00", read: false, isArchived: false, year: 2020 },
 ];
